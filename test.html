@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>ميديا باير</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <header>
+    <nav>
+      <div class="logo-box">
+        <img src="logo.png" alt="لوجو" class="logo-img" />
+        <span class="logo-text">اسلام صفوت</span>
+      </div>
+      <div class="burger" onclick="toggleMenu()">
+        <div class="line"></div>
+        <div class="line"></div>
+        <div class="line"></div>
+      </div>
+      <ul class="nav-links">
+        <li><a href="index.html">الرئيسية</a></li>
+        <li><a href="services.html">الخدمات</a></li>
+        
+      </ul>
+    </nav>
+  </header>
+
+  <section class="service-details">
+    <h2>اراء العملاء :</h2>
+    <div class="testimonials">
+
+<div class="testimonial">
+  <h4>رأي عميل</h4>
+  <audio controls>
+    <source src="customer1.mp3" type="audio/mpeg">
+    المتصفح لا يدعم مشغل الصوت.
+  </audio>
+</div>
+<div class="testimonial">
+  <h4>رأي عميل</h4>
+  <audio controls>
+    <source src="customer2.mp3" type="audio/mpeg">
+    المتصفح لا يدعم مشغل الصوت.
+  </audio>
+</div>
+<div class="testimonial">
+  <h4>رأي عميل</h4>
+  <audio controls>
+    <source src="customer3.mp3" type="audio/mpeg">
+    المتصفح لا يدعم مشغل الصوت.
+  </audio>
+</div>
+<div class="testimonial">
+  <h4>رأي عميل</h4>
+  <audio controls>
+    <source src="customer4.mp3" type="audio/mpeg">
+    المتصفح لا يدعم مشغل الصوت.
+  </audio>
+</div>
+<img src="a.jpg" alt="رأي عميل واتساب" />
+<img src="b.jpg" alt="رأي عميل واتساب" />
+<img src="c.jpg" alt="رأي عميل واتساب" />
+<img src="d.jpg" alt="رأي عميل واتساب" />
+<img src="f.jpg" alt="رأي عميل واتساب" />
+      <img src="g.jpg" alt="رأي عميل واتساب" />
+      <img src="aa.jpg" alt="رأي عميل فيسبوك" />
+
+    </div>
+
+    <div style="margin-top: 30px; text-align: center;">
+      <a href="https://wa.me/201098296533" class="btn" target="_blank">تواصل على واتساب</a>
+    </div>
+
+  </section>
+
+  <footer>
+    <div class="social">
+      <a href="https://www.facebook.com/victor.smahmoud">فيسبوك</a> | 
+      <a href="https://wa.me/201098296533">وتس اب</a> 
+    </div>
+    <p>© 2025 اسلام صفوت. كل الحقوق محفوظة.</p>
+  </footer>
+
+  <script>
+    function toggleMenu() {
+      const navLinks = document.querySelector('.nav-links');
+      navLinks.classList.toggle('active');
+    }
+  </script>
+</body>
+</html>
